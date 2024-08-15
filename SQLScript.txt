@@ -1,1 +1,3 @@
 SQL Script for DTR Application
+
+SELECT * FROM CHIX WHERE YUAN = 'PASADO'
