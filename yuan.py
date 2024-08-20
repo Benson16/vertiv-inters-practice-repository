@@ -14,11 +14,11 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 
-# Load images
-bird_img = pygame.image.load(r'C:\Users\CarlYuan.Verzola\Downloads\bird.png')  # Replace with your bird image path
+# Replace with the correct relative path
+bird_img = pygame.image.load("Assets/bird.png")
 bird_img = pygame.transform.scale(bird_img, (50, 35))  # Adjust size as needed
 
-pipe_img = pygame.image.load(r'C:\Users\CarlYuan.Verzola\Downloads\pipe.png')  # Replace with your pipe image path
+pipe_img = pygame.image.load("Assets/pipe.png")
 pipe_img = pygame.transform.scale(pipe_img, (60, 400))  # Adjust size as needed
 
 # Bird variables
